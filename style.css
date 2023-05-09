@@ -1,0 +1,296 @@
+body
+{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+
+.inteiro
+{
+    width: 65%;
+    height: 80vh;
+    background-color: rgb(197, 180, 180);
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.linha1
+{
+    width: 90%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.btesc
+{
+    margin-left: 7px;
+    margin-top: 15px;
+    width: 70px;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius:  10px ;
+}
+
+.linha2
+{
+    margin-top: 9px;
+    background-color: antiquewhite;
+    width: 97%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btg
+{
+    margin-left: 7px;
+    margin-top: 5px;
+    width: 60px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius:  10px ; 
+}
+
+.btback
+{
+    margin-left: 9px;
+    margin-top: 5px;
+    width: 100px;
+    height: 50px; 
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px ; 
+}
+
+.linha3
+{
+    margin-top: 8px;
+    width: 97%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+    justify-content: space-between;
+}
+
+.btab
+{
+    margin-left: 9px;
+    margin-top: 5px;
+    width: 100px;
+    height: 50px; 
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px ; 
+}
+
+.linha4
+{
+    margin-top: 5px;
+    width: 97%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+    justify-content: space-between;
+}
+
+.btcaps
+{
+    margin-left: 9px;
+    margin-top: 5px;
+    width: 115px;
+    height: 50px; 
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px ; 
+}
+
+.btenter
+{
+    margin-left: 9px;
+    margin-top: 5px;
+    width: 115px;
+    height: 50px; 
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px ; 
+}
+.linha5
+{
+    margin-top: 5px;
+    width: 97%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+    justify-content: space-between;
+}
+
+.btshift
+{
+    margin-left: 9px;
+    margin-top: 5px;
+    width: 125px;
+    height: 50px; 
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px ;
+}
+.linha6
+{
+    margin-top: 5px;
+    width: 97%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+    justify-content: space-between;
+}
+
+.btcrtl
+{ 
+    margin-left: 9px;
+    margin-top: 5px;
+    width: 120px;
+    height: 60px; 
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px ;   
+}
+
+.btalt
+{
+    margin-left: 9px;
+    margin-top: 5px;
+    width: 120px;
+    height: 60px; 
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px ;
+}
+
+.btspace
+{
+    margin-left: 9px;
+    margin-top: 5px;
+    width: 210px;
+    height: 60px; 
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px ;
+}
+
+.btalt2 
+{ 
+    margin-left: 7px;
+    margin-top: 5px;
+    width: 60px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius:  10px ;  
+}
+
+.btcrtl2
+{
+    margin-left: 7px;
+    margin-top: 5px;
+    width: 60px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius:  10px ;
+}
+
+.setas
+{
+    background-color: aqua;
+    width: 350px;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.seta1
+{
+    background-color: rgb(113, 135, 135);
+    width: 116px;
+    height: 8vh;
+}
+
+.bts1 
+{
+    margin-left: 7px;
+    margin-top: 5px;
+    width: 50px;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius:  10px ; 
+    display: flex;
+    justify-content: center; 
+
+}
+
+.seta23
+{
+    background-color: rgb(113, 135, 135);
+    width: 116px;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.bts23
+{
+    margin-left: 7px;
+    margin-top: 5px;
+    width: 50px;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius:  10px ;  
+}
+
+.seta4
+{
+    background-color: rgb(113, 135, 135);
+    width: 116px;
+    height: 8vh;
+}
+
+.bts4
+{
+    margin-left: 7px;
+    margin-top: 5px;
+    width: 50px;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius:  10px ;  
+}

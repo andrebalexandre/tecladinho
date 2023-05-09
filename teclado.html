@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teclas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="inteiro">
+        <div class="linha1">
+            <button class="btesc">esc</button>
+        </div>
+            <div class="linha2">
+                <button class="btg">esc</button>
+                <button class="btg">esc</button>
+                <button class="btg">esc</button>
+                <button class="btg">esc</button>
+                <button class="btg">esc</button>
+                <button class="btg">esc</button>
+                <button class="btg">esc</button>
+                <button class="btg">esc</button>
+                <button class="btg">esc</button>
+                <button class="btg">esc</button>
+                <button class="btg">esc</button>
+                <button class="btg">esc</button>
+                <button class="btg">esc</button>
+                <button class="btback">esc</button>
+            </div>
+                <div class="linha3">
+                        <button class="btab">tab</button>
+                        <button class="btg">esc</button>
+                        <button class="btg">esc</button>
+                        <button class="btg">esc</button>
+                        <button class="btg">esc</button>
+                        <button class="btg">esc</button>
+                        <button class="btg">esc</button>
+                        <button class="btg">esc</button>
+                        <button class="btg">esc</button>
+                        <button class="btg">esc</button>
+                        <button class="btg">esc</button>
+                        <button class="btg">esc</button>
+                        <button class="btg">esc</button>
+                        <button class="btg">esc</button>
+                </div>
+                    <div class="linha4">
+                        <button class="btcaps">CapsLock</button>
+                        <button class="btg">a</button>
+                        <button class="btg">s</button>
+                        <button class="btg">d</button>
+                        <button class="btg">f</button>
+                        <button class="btg">g</button>
+                        <button class="btg">h</button>
+                        <button class="btg">j</button>
+                        <button class="btg">k</button>
+                        <button class="btg">l</button>
+                        <button class="btg">: <br> ; </button>
+                        <button class="btg">" <br> ' </button>
+                        <button class="btenter">enter</button>
+                    </div>
+                        <div class="linha5">
+                            <button class="btshift">shift</button>
+                            <button class="btg"></button>
+                            <button class="btg"></button>
+                            <button class="btg"></button>
+                            <button class="btg"></button>
+                            <button class="btg"></button>
+                            <button class="btg"></button>
+                            <button class="btg"></button>
+                            <button class="btg"></button>
+                            <button class="btg"></button>
+                            <button class="btg"></button>
+                            <button class="btg"></button>
+                            <button class="btshift">shift</button>
+                        </div>
+                            <div class="linha6">
+                            <button class="btcrtl">Ctrl</button>
+                            <button class="btalt">alt</button>
+                            <button class="btspace"></button>
+                            <button class="btalt2">alt</button>
+                            <button class="btcrtl2">Ctrl</button>
+                            <div class="setas">
+                                <div class="seta1">
+                                    <button class="bts1"></button>
+                                </div>
+                                <div class="seta23">
+                                    <button class="bts23"></button>
+                                    <button class="bts23"></button>
+                                </div>
+                                <div class="seta4">
+                                    <button class="bts4"></button>
+                                </div>
+                            </div>
+                            </div>
+
+    </div>
+    
+
+
+
+
+</body>
+
+<script>
+    
+document.onkeydown = Pega_Tecla;
+
+function Pega_Tecla(e) 
+{	
+    e = e || window.event;
+
+    tecla = e.keyCode;
+    console.log(tecla); // MOSTRA O CÓDIGO DA TECLA PRESSIONADA
+
+    
+
+
+
+}
+</script>
+
+</html>
