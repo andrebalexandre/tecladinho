@@ -3,6 +3,7 @@ body
     display: flex;
     justify-items: center;
     justify-content: center;
+    overflow-y: hidden;
 }
 
 .bobeira
