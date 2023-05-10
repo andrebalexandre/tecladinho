@@ -5,6 +5,15 @@ body
     justify-content: center;
 }
 
+.bobeira
+{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
 
 .inteiro
 {
@@ -14,11 +23,18 @@ body
     background-color: rgb(0, 0, 0);
     border-style: solid;
     border-color: black;
-    border-width: 4px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
 }
 
+.mouse
+{
+    margin-left: 40px;
+    margin-top: 150px;
+    width: 400px;
+    height: 300px;
+}
 .linha1
 {
     width: 90%;
@@ -238,6 +254,7 @@ body
     height: 40px;
     border-radius:  10px ;   
     background-color: rgb(20, 20, 20);
+    color: aliceblue;
 }
 
 .seta23
@@ -255,11 +272,12 @@ body
 
 .bts23
 {  
-    margin-top: 3px;
+    margin-top: 2px;
     width: 80px;
     height: 50px;
     border-radius:  10px ; 
     background-color: rgb(20, 20, 20); 
+    color: aliceblue;
 }
 
 .seta4
@@ -281,4 +299,5 @@ body
     height: 40px;
     border-radius:  10px ;   
     background-color: rgb(20, 20, 20);
+    color: aliceblue;
 }
